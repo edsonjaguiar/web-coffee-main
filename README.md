@@ -1,6 +1,6 @@
 ## The challenge
 
-The solution to this challenge can be found in the branch: [Challange Solution](https://github.com/edsonjaguiar/web-coffee-main/tree/challange-solution)
+The solution to this challenge can be found in the branch: [Challange Solution](https://github.com/edsonjaguiar/web-coffee-main/tree/challange-solution).
 
 Your challenge is to build out this Web Coffee Search Cards using the [Coffee API](https://coffee-api-fn2g.onrender.com/coffees) and get it looking as close to the design as possible.
 

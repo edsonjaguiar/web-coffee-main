@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Coffee Search</title>
+
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="styles/style.css" />
+
+        <!-- Font Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- CDN Lord Icon -->
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Web Coffee</h1>
+            <img src="images/icon-coffee.png" alt="Icon coffee" />
+        </header>
+
+        <main>
+            <form class="search__form">
+                <div class="search__form-input">
+                    <img src="images/icon-search.png" alt="Icon Search" />
+                    <input
+                        type="search"
+                        placeholder="Search your coffee"
+                        id="search-input"
+                    />
+                </div>
+            </form>
+
+            <span class="loading">
+                <lord-icon
+                    src="https://cdn.lordicon.com/xjovhxra.json"
+                    trigger="loop"
+                    colors="primary:#a66037,secondary:#66eece"
+                    style="width: 100px; height: 100px"
+                >
+                </lord-icon>
+            </span>
+
+            <p class="not-found-message">
+                Oops, looks like coffee was not found
+            </p>
+
+            <div class="cards"></div>
+        </main>
+
+        <footer class="attribution">
+            Challenge by
+            <a href="https://github.io/edsonjaguiar" target="_blank">Edson.</a>.
+            Coded by
+            <a href="https://github.com/edsonjaguiar" target="_blank">Edson</a>.
+        </footer>
+
+        <!-- Custom JS File -->
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

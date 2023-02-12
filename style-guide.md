@@ -27,4 +27,4 @@ White Smoke: hsl(0, 0%, 96%)
 ### Font
 
 -   Family: [Inter](https://fonts.google.com/specimen/Inter)
--   Weights: 400, 600, 700
+-   Weights: 400, 500, 700
